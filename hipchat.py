@@ -31,7 +31,7 @@ Full name support
 When the plugin starts, it will fetch a complete list of user from Hipchat and add the full names
 to the nicklist.
 To disable this feature:
-/set
+/set plugins.var.python.hipchat.enable_fullnames off
 """
 
 import json
